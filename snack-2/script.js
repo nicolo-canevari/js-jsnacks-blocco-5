@@ -13,8 +13,8 @@ let namesString = '';
 // forEach scorre l'array people
 people.forEach(function(person, index) {
 
-  // Aggiungi il nome alla stringa namesString
-  namesString += person.name;
+  // Aggiungi il nome con gli apici alla stringa namesString
+  namesString += `'${person.name}'`;
 
   // Aggiungi una virgola e uno spazio se non è l'ultimo nome
   if (index < people.length - 1) {
