@@ -6,3 +6,22 @@ const people = [
 
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
+
+// Variabile per raccogliere i nomi
+let namesString = '';
+
+// forEach scorre l'array people
+people.forEach(function(person, index) {
+
+  // Aggiungi il nome alla stringa namesString
+  namesString += person.name;
+
+  // Aggiungi una virgola e uno spazio se non è l'ultimo nome
+  if (index < people.length - 1) {
+    namesString += ', ';
+  }
+
+});
+
+// Stampa il risultato
+console.log(namesString);
