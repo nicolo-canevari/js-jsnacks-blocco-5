@@ -22,6 +22,7 @@ Snack-5:
 => uso .filter per creare un nuovo array con tutti gli elementi che passano un "test", in questo caso che i numeri da stampare in console siano pari.
 
 Snack-6:
+=> uso .filter per filtrare le zucchine in base alla lunghezza.
 
 Snack-7:
 
