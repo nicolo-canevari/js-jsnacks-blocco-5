@@ -7,15 +7,16 @@ Successivamente risolvi gli snack che troverai all’interno usando i metodi deg
 
 LOGICA:
 Snack-1:
-=> uso il ciclo for per stampare in console tutti i nomi nell'array
+=> uso il ciclo for per stampare in console tutti i nomi nell'array.
 
 Snack-2:
-=> uso il ciclo forEach stampare in console tutti i nomi nell'array
+=> uso il ciclo forEach stampare in console tutti i nomi nell'array.
 
 Snack-3:
-=> uso .map per creare un nuovo array trasformando ogni elemento dell'array originale
+=> uso .map per creare un nuovo array trasformando ogni elemento dell'array originale.
 
 Snack-4:
+=> uso .map per estrarre la proprietà author da ogni oggetto.
 
 Snack-5:
 

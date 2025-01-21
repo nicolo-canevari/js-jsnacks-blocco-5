@@ -7,6 +7,7 @@ const people = [
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
 
+
 // Variabile per raccogliere i nomi
 let namesString = '';
 
