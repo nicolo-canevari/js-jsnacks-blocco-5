@@ -7,6 +7,7 @@ Successivamente risolvi gli snack che troverai all’interno usando i metodi deg
 
 LOGICA:
 Snack-1:
+=> uso il ciclo for per stampare tutti i nomi nell'array
 
 Snack-2:
 
