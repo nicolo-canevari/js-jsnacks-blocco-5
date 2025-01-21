@@ -30,5 +30,8 @@ const zucchineCorte = zucchine.filter(function(zucchina) {
 });
 
 // Stampa i risultati in console
-console.table('Zucchine lunghe:', zucchineLunghe);
-console.table('Zucchine corte:', zucchineCorte);
+console.log("Zucchine più lunghe di 15 cm:");
+console.table(zucchineLunghe);
+
+console.log("Zucchine più corte di 15 cm:");
+console.table(zucchineCorte);

@@ -28,3 +28,6 @@ Snack-7:
 => uso .find che va a scorrere l'array "students" e restituisce il primo elemento che soddisfa la condizione con "id uguale a 2".
 
 Snack-8:
+=> Trovare lo studente con 'Marco Lanci' con .find
+   Se lo studente è stato trovato gli assegno la sua classe.
+   Stampa la classe dello studente trovato.

@@ -1,3 +1,4 @@
+// array di oggetti
 const students = [
   {
     id: 1,
@@ -21,3 +22,24 @@ const students = [
 
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
+
+
+// Trova lo studente con nome 'Marco Lanci'
+const marco = students.find(student => student.name === 'Marco Lanci');
+
+// Metodo con '' con if else
+
+// Imposto la variabile vuota
+let marcoClass = '';
+
+// Verifico se Marco è stato trovato
+if (marco) {
+
+  // Se Marco è trovato, assegno la sua classe
+  marcoClass = marco.class;
+
+}
+
+// Stampa il risultato in console
+console.log(marcoClass);
+
