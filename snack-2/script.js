@@ -11,7 +11,7 @@ const people = [
 let namesString = '';
 
 // forEach scorre l'array people
-people.forEach(function(person, index) {
+people.forEach(function (person, index) {
 
   // Aggiungi il nome con gli apici alla stringa namesString
   namesString += `'${person.name}'`;
@@ -23,5 +23,5 @@ people.forEach(function(person, index) {
 
 });
 
-// Stampa il risultato
+// Stampa il risultato in console
 console.log(namesString);

@@ -13,6 +13,7 @@ Snack-2:
 => uso il ciclo forEach stampare in console tutti i nomi nell'array
 
 Snack-3:
+=> uso .map per creare un nuovo array trasformando ogni elemento dell'array originale
 
 Snack-4:
 

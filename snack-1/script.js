@@ -10,15 +10,15 @@ let result = '';
 // ciclo for
 for (let i = 0; i < names.length; i++) {
 
-  result += names[i];
-  if (i < names.length - 1) {
+    result += names[i];
+    if (i < names.length - 1) {
 
-    // Stampo la variabile result che conterrà tutti i nomi separati da una virgola
-    result += ', ';
+        // Stampo la variabile result che conterrà tutti i nomi separati da una virgola
+        result += ', ';
 
-  }
+    }
 
 }
 
-// debugging
+// Stampo il risultato in console
 console.log(result);
