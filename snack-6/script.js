@@ -18,6 +18,7 @@ const zucchine = [
 // Filtra le zucchine con lunghezza maggiore o uguale a 15 cm
 const zucchineLunghe = zucchine.filter(function(zucchina) {
 
+  // >= 15cm
   return zucchina.length >= 15;
 
 });
@@ -25,6 +26,7 @@ const zucchineLunghe = zucchine.filter(function(zucchina) {
 // Filtra le zucchine con lunghezza inferiore a 15 cm
 const zucchineCorte = zucchine.filter(function(zucchina) {
 
+  // < 15cm
   return zucchina.length < 15;
 
 });

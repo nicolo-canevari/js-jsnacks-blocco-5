@@ -8,6 +8,7 @@ const numbers = [2, 8, 4, 7, 2, 87];
 // vado a creare un nuovo array incrementando ogni numero di +1
 const incrementedNumbers = numbers.map(function (number) {
 
+    // Aggiungo 1 al valore di number
     return number + 1;
 
 });

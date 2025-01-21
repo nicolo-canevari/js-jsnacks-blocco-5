@@ -18,9 +18,12 @@ people.forEach(function (person, index) {
   // Aggiungi il nome con gli apici alla stringa namesString
   namesString += `'${person.name}'`;
 
-  // Aggiungi una virgola e uno spazio se non è l'ultimo nome
+  // Se non è l'ultimo nome dell'array aggiungo una virgola e uno spazio
   if (index < people.length - 1) {
+
+    // Virgola e spazio tra i "name" dell'array
     namesString += ', ';
+
   }
 
 });

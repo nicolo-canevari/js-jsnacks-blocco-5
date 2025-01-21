@@ -5,16 +5,19 @@ const names = ['Edoardo', 'Simone', 'Francesco'];
 // Risultato: 'Edoardo', 'Simone', 'Francesco'
 
 
-// Aggiungo il nome corrente all'output
+// Aggiungo una variabile vuota per accumulare i nomi
 let result = '';
 
 // ciclo for
 for (let i = 0; i < names.length; i++) {
 
+     // Aggiungo il nome corrente alla variabile result
     result += names[i];
+
+    // Se non è l'ultimo nome dell'array
     if (i < names.length - 1) {
 
-        // Stampo la variabile result che conterrà tutti i nomi separati da una virgola
+         // Aggiungi una virgola e uno spazio
         result += ', ';
 
     }

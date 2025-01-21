@@ -13,7 +13,7 @@ const posts = [
 // Creo un nuovo array coi nomi degli autori
 const authors = posts.map(function(post) {
 
-  // Estraggo la proprietà author dell'oggetto post andando ad aggiungerla al nuovo array
+  // Restituisco il valore della proprietà author di un oggetto post
   return post.author;
 
 });
