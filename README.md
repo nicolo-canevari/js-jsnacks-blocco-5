@@ -25,5 +25,6 @@ Snack-6:
 => uso .filter per filtrare le zucchine in base alla lunghezza.
 
 Snack-7:
+=> uso .find che va a scorrere l'array "students" e restituisce il primo elemento che soddisfa la condizione con "id uguale a 2".
 
 Snack-8:
