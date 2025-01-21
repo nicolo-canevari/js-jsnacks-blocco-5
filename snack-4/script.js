@@ -1,3 +1,4 @@
+// array di oggetti
 const posts = [
   { author: 'Marco', date: '12/3/2021', content: 'lorem ipsum...' },
   { author: 'Luca', date: '30/6/2021', content: 'lorem ipsum...' },

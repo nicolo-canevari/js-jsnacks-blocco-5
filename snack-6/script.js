@@ -1,3 +1,4 @@
+// array di oggetti
 const zucchine = [
   { type: 'Napoletana', weight: 10, length: 4 },
   { type: 'Trombetta', weight: 13, length: 16 },
@@ -12,3 +13,4 @@ const zucchine = [
 ];
 
 // A partire dall'array fornito, crea due array. Uno con le zucchine più lunghe di almeno 15cm. L'altro con le restanti.
+

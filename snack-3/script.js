@@ -1,3 +1,4 @@
+// array di stringhe
 const numbers = [2, 8, 4, 7, 2, 87];
 
 // Crea un nuovo array in cui tutti i numeri siano incrementati di 1
@@ -13,3 +14,4 @@ const incrementedNumbers = numbers.map(function (number) {
 
 // Stampo il risultato in console
 console.log(incrementedNumbers);
+

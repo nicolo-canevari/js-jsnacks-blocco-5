@@ -1,3 +1,4 @@
+// array di oggetti
 const people = [
   { name: 'Paolo', age: 35 },
   { name: 'Giulia', age: 24 },
