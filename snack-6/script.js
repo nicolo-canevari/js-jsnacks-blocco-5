@@ -19,7 +19,7 @@ const zucchine = [
 const zucchineLunghe = zucchine.filter(function(zucchina) {
 
   // >= 15cm
-  return zucchina.length >= 15;
+  return zucchina.length > 15;
 
 });
 
