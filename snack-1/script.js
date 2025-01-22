@@ -11,13 +11,13 @@ let result = '';
 // ciclo for
 for (let i = 0; i < names.length; i++) {
 
-     // Aggiungo il nome corrente alla variabile result
+    // Aggiungo il nome corrente alla variabile result
     result += names[i];
 
     // Se non è l'ultimo nome dell'array
     if (i < names.length - 1) {
 
-         // Aggiungi una virgola e uno spazio
+        // Aggiungi una virgola e uno spazio
         result += ', ';
 
     }
